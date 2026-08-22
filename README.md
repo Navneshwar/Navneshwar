@@ -1,149 +1,18 @@
-```markdown
-# Hi, I'm Navneshwar Balakrishnan 👋
+# 💫 About Me:
+🔭 I’m currently working on<br>HEIMDALL — an unsupervised deep learning system for IoT botnet detection using PyTorch, behavioral modeling, and network-flow data.<br><br>🤝 I’m looking to collaborate on<br>Open-source projects involving Python, machine learning, cybersecurity, networking, and data-driven applications.<br><br>🆘 I’m looking for help with<br>Cloud infrastructure, distributed systems, and improving production-level software engineering practices.<br><br>🌱 I’m currently learning<br>Data Structures & Algorithms, cloud technologies, data engineering, machine learning, and scalable software development.<br><br>💬 Ask me about<br>Python, machine learning, network security, Tor/network analysis, digital forensics, or my experience leading the Tamil Nadu Police Hackathon team.<br><br>⚡ Fun fact<br>I led a team that placed Top 6 out of 369 teams at the Tamil Nadu Police Hackathon 2025, competing against 2,400+ participants.
 
-### CSE (Cyber Security) Undergraduate | Python Developer | ML & Data Enthusiast
 
-I'm a third-year CSE (Cyber Security) undergraduate at **Amrita Vishwa Vidyapeetham** interested in building practical software, machine learning systems, and data-driven solutions.
+## 🌐 Socials:
+[![Mastodon](https://img.shields.io/badge/-MASTODON-%232B90D9?logo=mastodon&logoColor=white)](https://mastodon.social/@]) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:navnesh463@gmail.com) 
 
-I enjoy working across **software development, machine learning, computer networks, and security**, and I like turning technical ideas into working projects.
-
----
-
-## 🚀 What I Work On
-
-- 🐍 **Python development** — automation, analysis, networking tools, and security tooling
-- 🤖 **Machine Learning** — anomaly detection, unsupervised learning, model evaluation
-- 📊 **Data & Network Analysis** — NetFlow/IPFIX, behavioral analysis, traffic analysis
-- 📱 **Application Development** — Android/Java applications
-- 🌐 **Computer Networks** — network analysis, reconnaissance, and network security
-- 🔐 **Cybersecurity** — digital forensics, security research, and defensive tooling
-- ☁️ **Cloud & Infrastructure** — experimenting with distributed and cloud infrastructure
+# 💻 Tech Stack:
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.shion.dev/api?username=Navneshwar&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://streak-stats.demolab.com/?user=Navneshwar&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=Navneshwar&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ---
+[![](https://komarev.com/ghpvc/?username=Navneshwar&icon=0&color=0)](https://visitcount.itsvg.in)
 
-## 🛠️ Tech Stack
-
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-
-### Machine Learning & Data
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-
-- Unsupervised Learning
-- Anomaly Detection
-- Gaussian Mixture Models
-- Model Evaluation
-- NetFlow/IPFIX
-- Statistical Drift Detection
-
-### Development & Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=flat&logo=android-studio&logoColor=white)
-
----
-
-## 🔬 Featured Projects
-
-### 🛡️ HEIMDALL
-**Unsupervised Botnet Detection via Probabilistic Behavioral Modeling**
-
-An unsupervised deep learning pipeline for detecting IoT botnet activity without relying on labeled attack data.
-
-**Built with:** PyTorch · Autoencoders · Gaussian Mixture Models · KS Drift Detection · NetFlow/IPFIX
-
-**Results:**
-- `0.9611 ROC-AUC` on IoT-23
-- `0.9899 PR-AUC` on Torii
-- `3× improvement` over a single-autoencoder baseline
-- `100% Torii attack attribution`
-
----
-
-### 🌐 Tor_Unveil 2.0
-
-A network-analysis system developed for the **Tamil Nadu Police Hackathon 2025** to investigate probable original IPs associated with Tor users.
-
-**Built with:** Python · Tor Network Analysis · OSINT · Traffic Correlation
-
-🏆 **Top 6 / 369 teams — Top 1.6%**  
-👥 Competed against **2,400+ participants**
-
-I served as **Team Lead & Lead Developer**.
-
----
-
-### 🔎 Network Scanner
-
-A reusable network reconnaissance tool for host discovery and port enumeration.
-
-**Built with:** Python · Nmap
-
-Includes a chatbot-driven interface for querying and analyzing scan results.
-
-[View Repository →](https://github.com/Navneshwar/Network_scanner_beta)
-
----
-
-### 📱 ASGUARD
-
-A privacy-focused Android security application designed for real-time threat awareness.
-
-**Built with:** Java · Android Studio
-
-Uses real-time sensor monitoring and behavior-based detection logic to identify anomalous device behavior.
-
-[View Repository →](https://github.com/Navneshwar/ASGUARD)
-
----
-
-### 🧪 PMGP V4
-
-A Python-based digital forensic triage tool for passive OS profiling, offensive-toolkit detection, and risk scoring.
-
-Designed to perform analysis without modifying the evidence being examined.
-
-[View Repository →](https://github.com/Navneshwar/pmgpV4)
-
----
-
-## 🏆 Achievement
-
-### Tamil Nadu Police Hackathon 2025
-
-**Team Lead & Lead Developer**
-
-🥇 **Top 6 out of 369 teams**  
-📈 **Top 1.6%**  
-👥 **2,400+ participants**
-
-Led the technical development of **TOR — Unveil: Peel the Onion**, a system for network and traffic analysis.
-
----
-
-## 📚 Currently Learning
-
-- Data Structures & Algorithms
-- Advanced Python
-- Machine Learning
-- Cloud & distributed systems
-- Data engineering concepts
-- Software engineering practices
-
----
-
-## 📫 Connect With Me
-
-- 💼 [LinkedIn](https://linkedin.com/in/navneshwar-balakrishnan)
-- 📧 [Email](mailto:navnesh463@gmail.com)
-- 💻 [GitHub](https://github.com/Navneshwar)
-
----
-
-> Building, breaking, learning, and building again.
-```
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
