@@ -1,267 +1,130 @@
 # Navneshwar Balakrishnan
 
-> CSE (Cyber Security) student who keeps accidentally turning "what if I tried this?" into a GitHub repository.
+> Cybersecurity-focused software developer building practical tools at the intersection of systems, digital forensics, and machine learning.
 
-📍 Chennai, India
-📧 navnesh463@gmail.com
-💻 [GitHub](https://github.com/Navneshwar) · [LinkedIn](https://linkedin.com/in/navneshwar-balakrishnan)
-
----
-
-## 🧑‍💻 Who Am I?
-
-Third-year CSE (Cyber Security) undergraduate who enjoys building things involving:
-
-- 🐍 Python
-- 🤖 Machine Learning
-- 🌐 Networks
-- 🔐 Cybersecurity
-- 📊 Data
-- ☁️ Cloud / infrastructure
-- ☕ questionable amounts of debugging
-
-I like taking complicated technical problems and turning them into something that either works beautifully or teaches me why it absolutely did not work.
+📍 Chennai, India  
+📧 [navnesh463@gmail.com](mailto:navnesh463@gmail.com)  
+💻 [GitHub](https://github.com/Navneshwar) · 💼 [LinkedIn](https://linkedin.com/in/navneshwar-balakrishnan)
 
 ---
 
-## 🚀 Currently Cooking
+## 👋 About Me
 
-### 🛡️ HEIMDALL
+I'm a CSE (Cyber Security) undergraduate at **Amrita Vishwa Vidyapeetham** (2024–2028). I enjoy understanding systems from the filesystem and kernel level up, then turning that knowledge into reliable software.
 
-**Unsupervised IoT Botnet Detection**
+My current interests include:
 
-Because apparently detecting cybercriminals with labeled data wasn't difficult enough.
+- 🔍 Digital forensics and filesystem internals
+- 🛡️ Linux security, threat detection, and malware analysis
+- 🧠 Applied ML for behavioral anomaly detection
+- 🌐 Network security and traffic analysis
+- ⚙️ Systems programming, testing, and cloud infrastructure
 
-Built an anomaly detection pipeline using:
-
-- PyTorch
-- Multi-branched autoencoders
-- Gaussian Mixture Models
-- KS drift detection
-- NetFlow/IPFIX
-
-Results:
-
-```text
-IoT-23  → 0.9611 ROC-AUC
-Torii   → 0.9899 PR-AUC
-Baseline improvement → 3×
-Torii attack attribution → 100%
-```
-
-Yes, I also had to learn what half of those words meant.
+I value measurable results, reproducible testing, and tools that explain what they find—not just tools that produce an alert.
 
 ---
 
-## 🏆 The "Wait, We Actually Won?" Section
+## 🚀 Featured Projects
 
-### Tamil Nadu Police Hackathon 2025
+### 🐧 ZeroTrace — Linux Security XAI
+**Python · Linux · eBPF · AI/ML · Explainable Security**
 
-**Team Lead & Lead Developer**
+An AI-assisted Linux security project focused on kernel-level telemetry, behavioral threat detection, and explainable security insights.
 
-🥇 Top 6 / 369 teams
-📈 Top 1.6%
-👥 2,400+ participants
+- Processes **30 behavioral features** for detection.
+- Uses bounded executable and temporal baselines (4,096 and 8,192 entries).
+- Recorded **0.156 ms mean** and **0.333 ms P99** selected-model inference latency per case, with **6.16 MiB** of bounded baseline state.
 
-Built **TOR — Unveil: Peel the Onion**, a system for analyzing Tor network activity and identifying probable original IPs.
+### 🧩 EXT4 Deleted File Recovery Workbench
+**Python · EXT4 · pytsk3 · FastAPI · SQLite · SHA-256**
 
-My main responsibilities included:
+A forensic workbench for examining EXT4 disk images, recovering deleted-file artifacts, and producing integrity-aware reports.
 
-- Technical development
-- Network analysis
-- Python development
-- Keeping the team moving
-- Probably saying "let's just test it one more time" approximately 47 times
+- Analyzes EXT4 inode and extent structures and inspects JBD2 journal information.
+- Supports artifact and timeline extraction plus MBR/GPT partition analysis.
+- Uses SHA-256 integrity verification to help preserve forensic traceability.
 
----
+### 🛡️ HEIMDALL — Unsupervised IoT Botnet Detection
+**PyTorch · Autoencoders · Gaussian Mixture Models · NetFlow/IPFIX**
 
-## 🔧 Things I've Built
+An unsupervised anomaly-detection pipeline designed to detect IoT botnet activity and behavioral changes over time.
+
+| Evaluation | Result |
+|---|---:|
+| ROC-AUC on IoT-23 | **0.9611** |
+| PR-AUC on Torii | **0.9899** |
+| Improvement over a single-autoencoder baseline | **3×** |
+
+Combines multi-branched autoencoder experts, Gaussian Mixture Models, NetFlow/IPFIX processing, and Kolmogorov–Smirnov drift detection.
+
+### ☁️ OpenStack Private Cloud
+**OpenStack · Ubuntu · KVM/QEMU · Nova · Neutron · MariaDB · RabbitMQ**
+
+Built and automated a multi-node private-cloud environment for virtual-machine provisioning, networking, and compute orchestration using centralized OpenStack services.
 
 ### 🌐 Network Scanner
+**C++ · TCP/IP · SQLite · Multithreading · CMake · CTest**
 
-A Python-based network reconnaissance tool using Nmap.
+A modular network-scanning tool for authorized networks.
 
-Features:
-
-- Host discovery
-- Port enumeration
-- Automated result analysis
-- Chatbot-driven querying
-
-[🔗 Repository](https://github.com/Navneshwar/Network_scanner_beta)
-
----
-
-### 📱 ASGUARD
-
-Android security application built with Java.
-
-Features:
-
-- Real-time sensor monitoring
-- Behaviour-based threat detection
-- Privacy-focused security analysis
-
-[🔗 Repository](https://github.com/Navneshwar/ASGUARD)
-
----
-
-### 🔬 PMGP V4
-
-Python-based digital forensic triage tool.
-
-Does things like:
-
-- OS profiling
-- Toolkit detection
-- Risk scoring
-- Evidence-safe passive analysis
-
-[🔗 Repository](https://github.com/Navneshwar/pmgpV4)
-
----
+- Discovers active IPv4 hosts and enumerates open TCP ports.
+- Persists results in SQLite with duplicate-safe handling.
+- Includes cancellation-aware background execution and automated unit/dependency-injection tests.
 
 ### 🧅 Tor_Unveil 2.0
+**Python · Network Analysis · OSINT · Traffic Correlation**
 
-Python + Tor + OSINT + network analysis.
+A network-analysis project developed for the Tamil Nadu Police Hackathon to analyze Tor-related traffic and identify probable original IPs through routing analysis, exit-node profiling, and traffic correlation.
 
-Built for the Tamil Nadu Police Hackathon.
-
-[🔗 Repository](https://github.com/Navneshwar/Tor_unveil2.0)
+### 🔬 More Projects
+- **[ASGUARD](https://github.com/Navneshwar/ASGUARD)** — Java Android security app with real-time sensor monitoring and behavior-based threat detection.
+- **[PMGP V4](https://github.com/Navneshwar/pmgpV4)** — Python-based passive digital-forensics triage for OS profiling, toolkit detection, and risk scoring.
+- **[Tor_Unveil 2.0](https://github.com/Navneshwar/Tor_unveil2.0)** — Hackathon network-analysis project.
 
 ---
 
-## 🧰 My Current Inventory
+## 🏆 Highlights
 
-### Languages
+- **First Runner-Up (2nd Place)** — National Level SSM Hackathon 2026, Track 1; Team Lead & Lead Developer (MeitY / C-DAC).
+- **Top 6 of 369 teams** — Tamil Nadu Police Hackathon 2025; Top 1.6% among 2,400+ participants, as Team Lead & Lead Developer.
+- **Certifications:** Oracle Data Platform 2025 Foundation Associate; CEH — Certified Ethical Hacker (Cisco NetAcad).
+
+---
+
+## 🧰 Technical Toolbox
+
+**Languages**  
+Python · C++ · Java · SQL · Bash
+
+**Security & Forensics**  
+Digital Forensics · EXT4 Analysis · File Recovery · Malware Analysis · PE Analysis · eBPF · Behavioral Threat Detection · Network Scanning · Anomaly Detection
+
+**Systems & Infrastructure**  
+Linux · Windows · TCP/IP · OpenStack · KVM/QEMU · Multithreading · Filesystem Internals
+
+**ML & Data**  
+PyTorch · scikit-learn · Autoencoders · Gaussian Mixture Models · NetFlow/IPFIX
+
+**Development & Testing**  
+Git/GitHub · CMake · CTest · FastAPI · SQLite · MariaDB · Android Studio
+
+---
+
+## 📫 Let's Connect
+
+I'm interested in collaborating on systems software, cybersecurity tooling, digital forensics, applied ML, and infrastructure projects.
+
+- Email: [navnesh463@gmail.com](mailto:navnesh463@gmail.com)
+- GitHub: [@Navneshwar](https://github.com/Navneshwar)
+- LinkedIn: [navneshwar-balakrishnan](https://linkedin.com/in/navneshwar-balakrishnan)
+
+---
+
+<details>
+<summary>Current operating mode</summary>
 
 ```text
-Python     ████████████████████  "my comfort zone"
-C++        ████████████████░░░░  "DSA, please be nice"
-C          ██████████████░░░░░░  "respectfully"
-Java       █████████████░░░░░░░  "Android happened"
-JavaScript ███████████░░░░░░░░░  "still negotiating"
+observe → investigate → build → test → measure → iterate
 ```
 
-### ML / Data
-
-- PyTorch
-- scikit-learn
-- Anomaly Detection
-- Unsupervised Learning
-- Gaussian Mixture Models
-- Model Evaluation
-- NetFlow/IPFIX
-- Statistical Drift Detection
-
-### Systems / Tools
-
-- Linux
-- Git
-- GitHub
-- Android Studio
-- Nmap
-- Wireshark
-
-### CS Stuff I Am Supposed To Know
-
-- Data Structures & Algorithms
-- DBMS
-- Operating Systems
-- Computer Networks
-
----
-
-## ☁️ Cloud Arc
-
-Currently exploring cloud and distributed infrastructure.
-
-I have also worked with a **multi-node OpenStack cluster** with a friend.
-
-More details coming once I stop pretending I remember every command we ran.
-
----
-
-## 📚 Currently Learning
-
-```text
-DSA                 ███████████████░░░░░
-Cloud                ████████████░░░░░░░
-Data Engineering     ██████████░░░░░░░░░
-ML                   ███████████████░░░░
-Software Engineering ████████████░░░░░░░
-```
-
-Translation:
-
-**I know things. I am learning more things. There are many things.**
-
----
-
-## 🎯 What I'm Looking For
-
-I'm interested in opportunities involving:
-
-- Software Engineering
-- Machine Learning
-- Data / Analytics
-- Cloud & Distributed Systems
-- Cybersecurity
-- Networked Systems
-- Building things that survive contact with reality
-
----
-
-## 🧠 Random Facts
-
-- I study Cybersecurity but somehow keep building ML systems.
-- I started with security and ended up learning statistics.
-- I enjoy Python a suspicious amount.
-- My GitHub contains evidence of my various technical experiments.
-- I once led a hackathon team into the Top 6.
-- I still think "it works on my machine" is a valid debugging methodology.
-
----
-
-## 📊 GitHub Status
-
-> `Currently: compiling`
->
-> `Status: probably debugging`
->
-> `CPU: thinking`
->
-> `RAM: full`
->
-> `Stack Overflow tabs: classified`
->
-> `Git commits: "final_final_v2_REAL"`
-
----
-
-## 📫 Contact
-
-If you're interested in building something cool, collaborating, or just talking tech:
-
-📧 **[navnesh463@gmail.com](mailto:navnesh463@gmail.com)**
-
-💻 **[GitHub](https://github.com/Navneshwar)**
-
-💼 **[LinkedIn](https://linkedin.com/in/navneshwar-balakrishnan)**
-
----
-
-### ⭐ Final Boss
-
-```text
-while (alive) {
-    learn();
-    build();
-    break_something();
-    debug();
-    repeat();
-}
-```
-
-> *"If it works, don't touch it. If it doesn't work, add more print statements."*
-```
+</details>
