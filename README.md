@@ -45,6 +45,31 @@ An AI-assisted Linux security project for behavioral threat detection with expla
 </details>
 
 <details open>
+<summary><b>🧠 FedReason — Federated Neuro-Symbolic Cyber Threat Intelligence</b> · Federated Learning / Neuro-Symbolic AI / CTI</summary>
+<br>
+A **co-authored research manuscript** exploring how multiple organizations can collaborate on intrusion detection without pooling raw flow records—and how to make alerts explain their reasoning instead of just yelling “THREAT DETECTED!” in red.
+
+- Pairs a **FedProx neural detector** with **Federated Semantic Rule Aggregation (FSRA)**, which combines explicit behavioral rules and their provenance.
+- Evaluated three public datasets as simulated silos: CICIDS2017, CIC-UNSW-NB15, and CICIoT2023, using a frozen test population of **1,158,055 flows**.
+- Connects selected rules to **MITRE ATT&CK** context, contributing-silo provenance, satisfied conditions, and mitigation guidance.
+
+**Controlled ablation results (mean across 3 seeds):**
+
+| Configuration | Attack F1 | ROC-AUC | PR-AUC |
+|:--|--:|--:|--:|
+| FedProx, global threshold | 50.72% | 0.719 | 0.480 |
+| FedReason, global threshold + FSRA | **59.12%** | **0.777** | **0.531** |
+| FedProx, domain-calibrated | **77.70%** | 0.719 | 0.480 |
+| FedReason, domain-calibrated + FSRA | 76.84% | **0.777** | **0.531** |
+
+The interesting result is the trade-off: with a global threshold, FSRA improves attack F1 by **8.39 percentage points** and lifts ROC-AUC. With domain-specific calibration already in place, it improves ranking metrics but does **not** beat calibrated FedProx on attack F1. We report the nuance, not just the shiny numbers.
+
+*Federated learning helps keep raw rows local; it is not a magic privacy force field. The manuscript also audits membership inference and gradient inversion rather than assuming updates are harmless.*
+
+*Co-authored with Dr. Anitha G and Abimanyu R.*
+</details>
+
+<details open>
 <summary><b>🧩 EXT4 Deleted File Recovery Workbench</b> · Python / EXT4 / pytsk3 / FastAPI</summary>
 <br>
 A forensic workbench for examining EXT4 disk images, recovering deleted-file artifacts, and producing integrity-aware reports.
